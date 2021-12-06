@@ -2,10 +2,9 @@
 /*Common CSS*/
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Mulish', sans-serif;
     color: #333;
     font-size: 12px;
-    line-height: 1.5em;
     margin: 0;
     padding: 0;
 }
@@ -19,7 +18,7 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1.5em;
 }
 .content
-    {width: 1232px;
+    {
         margin: 0 auto;
 
 }
@@ -30,21 +29,19 @@ h1, h2, h3, h4, h5, h6{
     width:"1%";
     height:"1%";
 }
-
 .top-header-area{
-    background-color: white;
+    background-color: RGBA(255,255,255,0.65);
     padding: 21px 0;
     overflow: hidden;
+    position: absolute;
 
 }
-
 .top-header-area .inner-header{
     overflow: hidden;
 }
-
 .top-header-area .logo{
     float: left;
-    width: 50%;
+    width: 40%;
 }
 .top-header-area .logo ul{
     margin: 0;
@@ -55,10 +52,10 @@ h1, h2, h3, h4, h5, h6{
 }
 .top-header-area .logo ul li{
     display: inline-block;
-    margin-right: 5px;
+    margin-left: 10em;
+
     
 }
-
 .top-header-area .header-links{
     float: right;
     width: 60%;
@@ -67,28 +64,34 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: right;
-    font-size: 15px;
-    margin-top: -8.5%;
+
+    font-size: 1vw;
+    margin-top: 1.3em;
 }
 .top-header-area .header-links ul li{
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 1em;
+    text-align: center;
     
 }
-.top-header-area .header-links .ul li a{
-
+.top-header-area .header-links ul li a{
+    color: #266280;
+    text-decoration: none;
 }
-.top-header-area .header-links .ul li a:hover{
-
+.top-header-area .header-links ul li a:hover{
+    color: #071a24
 }
-
+.top-header-area .header-links ul li a:link {
+    color: aliceblue;
+}
 .top-header-area .header-links .buttons{
-    display: inline-block;
-    margin-left: 5px;
-}
+    display: block;
+    margin-left: 40em;
+    margin-top: -2em;
 
+}
 .top-header-area .buttons .login_btn {
+    font-family: 'Mulish', sans-serif;
     background: #4b9aab;
     color: aliceblue;
     padding:  10px;
@@ -103,6 +106,7 @@ h1, h2, h3, h4, h5, h6{
     color: aliceblue;
 }
 .top-header-area .buttons .signup_btn {
+    font-family: 'Mulish', sans-serif;
     background: #6c6c6c;
     color: aliceblue;
     padding:  10px;
@@ -115,4 +119,42 @@ h1, h2, h3, h4, h5, h6{
 .top-header-area .buttons .signup_btn:hover {
     background: #3d3d3d;
     color: aliceblue;
+}
+
+/*Banner Area*/
+
+.banner-area .bannerbgimage{
+    margin-top: -65px;
+}
+
+.banner-area .body-text .bold-body-white-text {
+    display: block;
+    position: absolute;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    margin-left: 10vw;
+    margin-top: 7vw;
+    font-size: 2.2vw;
+}
+.banner-area .body-text .small-body-white-text {
+    display: block;
+    position: absolute;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    margin-left: 10vw;
+    margin-top: 31vw;
+    font-size: 1.5vw;
+}
+.banner-area .bannerbgimage{
+    margin-top: -65px;
+}
+.discover-area .body-text .bold-body-green-text {
+    display: block;
+    position: absolute;
+    font-family: 'Mulish', sans-serif;
+    color: #4490a2;
+    margin-left: 12vw;
+    margin-top: 3vw;
+    font-size: 2.2vw;
+    text-align: center;
 }
