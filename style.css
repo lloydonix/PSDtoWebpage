@@ -1,3 +1,4 @@
+
 /*Common CSS*/
 
 body{
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5, h6{
 
 .top-header-area .header-links{
     float: right;
-    width: 50%;
+    width: 60%;
 }
 .top-header-area .header-links ul{
     margin: 0;
@@ -68,7 +69,7 @@ h1, h2, h3, h4, h5, h6{
     list-style: none;
     text-align: right;
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: -8.5%;
 }
 .top-header-area .header-links ul li{
     display: inline-block;
@@ -85,6 +86,33 @@ h1, h2, h3, h4, h5, h6{
 .top-header-area .header-links .buttons{
     display: inline-block;
     margin-left: 5px;
-    
 }
 
+.top-header-area .buttons .login_btn {
+    background: #4b9aab;
+    color: aliceblue;
+    padding:  10px;
+    border: 0;
+    border-radius: 10px;
+    width: 138px;
+    height: 47px;
+    font-size: 110%;
+}
+.top-header-area .buttons .login_btn:hover {
+    background: #32626d;
+    color: aliceblue;
+}
+.top-header-area .buttons .signup_btn {
+    background: #6c6c6c;
+    color: aliceblue;
+    padding:  10px;
+    border: 0;
+    border-radius: 10px;
+    width: 138px;
+    height: 47px;
+    font-size: 110%;
+}
+.top-header-area .buttons .signup_btn:hover {
+    background: #3d3d3d;
+    color: aliceblue;
+}
