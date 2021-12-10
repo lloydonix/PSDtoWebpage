@@ -123,11 +123,11 @@ h1, h2, h3, h4, h5, h6{
 
 /*Banner Area*/
 
-.banner-area .bannerbgimage{
+.first-area .bannerbgimage{
     margin-top: -65px;
 }
 
-.banner-area .body-text .bold-body-white-text {
+.first-area .bold-body-white-text {
     display: block;
     position: absolute;
     font-family: 'Mulish', sans-serif;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 7vw;
     font-size: 2.2vw;
 }
-.banner-area .body-text .small-body-white-text {
+.first-area .small-body-white-text {
     display: block;
     position: absolute;
     font-family: 'Mulish', sans-serif;
@@ -149,6 +149,16 @@ h1, h2, h3, h4, h5, h6{
     margin-top: -65px;
 }
 .discover-area .body-text .bold-body-green-text {
+    display: block;
+    position: absolute;
+    font-family: 'Mulish', sans-serif;
+    color: #4490a2;
+    margin-left: 12vw;
+    margin-top: 3vw;
+    font-size: 2.2vw;
+    text-align: center;
+}
+.discover-area .body-text .why-us-text {
     display: block;
     position: absolute;
     font-family: 'Mulish', sans-serif;
