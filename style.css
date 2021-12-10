@@ -23,6 +23,20 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+/*Reusable Headers*/
+
+.bold-body-white-text{
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    font-size: 2.2vw;
+}
+
+.small-body-white-text {
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
 /*Header Area*/
 
 .resize{
@@ -123,48 +137,65 @@ h1, h2, h3, h4, h5, h6{
 
 /*Banner Area*/
 
+
 .first-area .bannerbgimage{
     margin-top: -65px;
 }
 
-.first-area .bold-body-white-text {
+.first-area .banner-header {
     display: block;
     position: absolute;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
     margin-left: 10vw;
     margin-top: 7vw;
-    font-size: 2.2vw;
+
 }
-.first-area .small-body-white-text {
+.first-area .banner-text {
     display: block;
     position: absolute;
-    font-family: 'Mulish', sans-serif;
-    color: #fff;
     margin-left: 10vw;
     margin-top: 31vw;
-    font-size: 1.5vw;
+
 }
-.banner-area .bannerbgimage{
-    margin-top: -65px;
+
+.bold-body-green-text {
+    color: #4490a2;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.2vw;
 }
-.discover-area .body-text .bold-body-green-text {
+
+.second-area .second-header {
     display: block;
     position: absolute;
-    font-family: 'Mulish', sans-serif;
-    color: #4490a2;
     margin-left: 12vw;
     margin-top: 3vw;
-    font-size: 2.2vw;
     text-align: center;
 }
-.discover-area .body-text .why-us-text {
+.second-area .second-text {
     display: block;
     position: absolute;
-    font-family: 'Mulish', sans-serif;
-    color: #4490a2;
     margin-left: 12vw;
-    margin-top: 3vw;
+    margin-top: 36vw;
     font-size: 2.2vw;
-    text-align: center;
+}
+
+.second-area .second-text .h4-text {    
+    margin-top: 1vw;
+    font-size: 1.8vw;
+}
+
+.second-area .second-text .p-text {    
+    margin-top: -1vw;
+    font-size: 1.2vw;
+}
+
+.second-area .second-text .h4-text-name {    
+    margin-top: -8vw;
+    margin-left: 67vw;
+    font-size: 1.8vw;
+}
+
+.second-area .second-text .p-text-name {    
+    margin-top: -2.5vw;
+    margin-left: 69vw;
+    font-size: 1.2vw;
 }
