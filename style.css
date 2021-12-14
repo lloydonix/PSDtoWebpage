@@ -37,6 +37,12 @@ h1, h2, h3, h4, h5, h6{
     font-size: 1.5vw;
 }
 
+.bold-body-green-text {
+    color: #4490a2;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.2vw;
+}
+
 /*Header Area*/
 
 .resize{
@@ -157,11 +163,6 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
-.bold-body-green-text {
-    color: #4490a2;
-    font-family: 'Mulish', sans-serif;
-    font-size: 2.2vw;
-}
 
 .second-area .second-header {
     display: block;
@@ -238,12 +239,34 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 10px;
 }
 .area4 .register input[type="text"]{
-    border-radius: 20px;
+    border-radius: 30px;
     font-size: 1.4vw;
     width: 27vw;
-    height: 2vw;
+    height: 3vw;
     margin-top: 1vw;
     color: rgb(129, 129, 129);
+    border: none;
+    box-shadow: 0px 0px 1vw -5px #236a7a;
+
+}
+
+.area4 .register input[type="submit"]{
+    border-radius: 0;
+    font-size: 1vw;
+    width: 10vw;
+    height: 3.5vw;
+    margin-top: 1vw;
+    margin-left: 9vw;
+    background-color: #236a7a;
+    color: white;
+    border:none;
+    box-shadow: 0px 0px 1vw -3px #236a7a;
+}
+
+.area4 .register input[type="submit"]:hover{
+    background-color: #103c46;
+    color: white;
+    border:none;
 }
 
 /* FOOTER */
