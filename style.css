@@ -218,3 +218,15 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 38vw;
     font-size: 2.2vw;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #565656;
+    color: white;
+}
+
+.footer .footer-logo {
+    width: 100%;
+    height: 100%;
+}
