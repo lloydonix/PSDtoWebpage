@@ -226,6 +226,14 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+
+.area4 .seller {
+    position: absolute;
+    margin-top: 57vw;
+    margin-left: 7vw;
+    font-size: 4em
+}
+
 .area4 h2 {
     position: absolute;
     margin-left: 65vw;
@@ -267,6 +275,68 @@ h1, h2, h3, h4, h5, h6{
     background-color: #103c46;
     color: white;
     border:none;
+}
+
+
+/*polaroid*/
+
+.area4 .polaroids ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1vw;
+    margin-top: 1.3em;
+}
+
+div.polaroid1 {
+    margin-top: 64vw;
+    margin-left: 10vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+  
+div.container1 {
+    padding: 10px;
+}
+
+div.polaroid2 {
+    margin-top: 64vw;
+    margin-left: 30vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+  
+div.container2 {
+    padding: 10px;
+}
+div.polaroid3 {
+    margin-top: 64vw;
+    margin-left: 50vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+  
+div.container3 {
+    padding: 10px;
+}
+div.polaroid4 {
+    margin-top: 64vw;
+    margin-left: 70vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+  
+div.container4 {
+    padding: 10px;
 }
 
 /* FOOTER */
