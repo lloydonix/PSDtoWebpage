@@ -243,7 +243,8 @@ h1, h2, h3, h4, h5, h6{
 
 /* Area 4 */
 
-.area4 {
+.area4 hr {
+    width: 85vw;
 
 }
 
@@ -298,6 +299,19 @@ h1, h2, h3, h4, h5, h6{
     border:none;
 }
 
+.area4 .help-button input[type="submit"]{
+    position: absolute;
+    border-radius: 0;
+    font-size: 1vw;
+    width: 20vw;
+    height: 3.5vw;
+    margin-top: 57.5vw;
+    margin-left: 70vw;
+    background-color: #236a7a;
+    color: white;
+    border:none;
+    box-shadow: 0px 0px 1vw -3px #236a7a;
+}
 
 /*polaroid*/
 
