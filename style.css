@@ -183,8 +183,32 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 31vw;
 
 }
+.first-area .getstarted {
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 45vw;
+    font-family: 'Mulish', sans-serif;
+    background: #6c6c6c;
+    color: aliceblue;
+    padding:  10px;
+    border: 0;
+    border-radius: 10px;
+    width: 15vw;
+    height: 47px;
+    font-size: 110%;
+}
+.first-area .getstarted:hover {
+    background: #3d3d3d;
+    color: aliceblue;
+}
 
+.first-area .playbutton {
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 65vw;
+}
 
+/*Second Area*/
 .second-area .second-header {
     display: block;
     position: absolute;
@@ -239,6 +263,174 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 12vw;
     margin-top: 38vw;
     font-size: 2.2vw;
+}
+
+.third-area .clients-button input[type="submit"]{
+    position: absolute;
+    border-radius: 0;
+    font-size: 1vw;
+    width: 13vw;
+    height: 3.5vw;
+    margin-top: -8.8vw;
+    margin-left: 58.3vw;
+    background-color: #236a7a;
+    color: white;
+    border:none;
+    box-shadow: 0px 0px 1vw -3px #236a7a;
+}
+.third-area .clients-button input[type="submit"]:hover{
+    background-color: #103c46;
+    color: white;
+    border:none;
+}
+
+.third-area hr {
+    width: 75vw;
+
+}
+
+
+/*tools*/
+
+.third-area .tools ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1vw;
+    margin-top: 1.3em;
+}
+
+div.tools1 {
+    margin-top: 12vw;
+    margin-left: 10vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+div.tools1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+  
+div.container1 {
+    padding: 10px;
+}
+
+div.tools2 {
+    margin-top: 12vw;
+    margin-left: 30vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+div.tools2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+
+div.container2 {
+    padding: 12vw;
+}
+div.tools3 {
+    margin-top: 12vw;
+    margin-left: 50vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+div.tools3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+
+div.container3 {
+    padding: 10px;
+}
+div.tools4 {
+    margin-top: 12vw;
+    margin-left: 70vw;
+    position: absolute;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+div.tools4:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+}
+  
+div.container4 {
+    padding: 10px;
+}
+
+
+/*ratings*/
+
+.third-area .ratings ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1vw;
+    margin-top: 1.3em;
+}
+
+div.ratings1 {
+    margin-top: 49vw;
+    margin-left: 40vw;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+div.ratings1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+  
+div.container1 {
+    padding: 50px;
+}
+
+div.ratings2 {
+    margin-top: 49vw;
+    margin-left: 58vw;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+div.ratings2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+
+div.container2 {
+    padding: 10px;
+}
+div.ratings3 {
+    margin-top: 49vw;
+    margin-left: 76vw;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+div.ratings3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+
+div.container3 {
+    padding: 10px;
 }
 
 /* Area 4 */
@@ -311,6 +503,11 @@ h1, h2, h3, h4, h5, h6{
     color: white;
     border:none;
     box-shadow: 0px 0px 1vw -3px #236a7a;
+}
+.area4 .help-button input[type="submit"]:hover{
+    background-color: #103c46;
+    color: white;
+    border:none;
 }
 
 /*polaroid*/
