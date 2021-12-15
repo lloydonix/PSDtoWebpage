@@ -7,7 +7,28 @@ body{
     font-size: 12px;
     margin: 0;
     padding: 0;
+    overflow: auto;
+    
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 p{
     font-weight: 400;
@@ -297,6 +318,11 @@ div.polaroid1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
+
+div.polaroid1:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
   
 div.container1 {
     padding: 10px;
@@ -310,7 +336,11 @@ div.polaroid2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
-  
+div.polaroid2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+
 div.container2 {
     padding: 10px;
 }
@@ -322,7 +352,11 @@ div.polaroid3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
-  
+div.polaroid3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
+}
+
 div.container3 {
     padding: 10px;
 }
@@ -333,6 +367,10 @@ div.polaroid4 {
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+}
+div.polaroid4:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
+
 }
   
 div.container4 {
