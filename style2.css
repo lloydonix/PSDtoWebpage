@@ -172,24 +172,30 @@ h1, h2, h3, h4, h5, h6{
     
     /*Banner Area*/
     
-    
+    .first-area .bgimage {
+        width: 140%; 
+        height: 90%;
+        margin-left: -130px;
+        
+    }
     .first-area .bannerbgimage{
-        margin-top: -65px;
+        margin-top: 65px;
     }
     
     .first-area .banner-header {
         display: block;
         position: absolute;
         margin-left: 10vw;
-        margin-top: 20vw;
+        margin-top: 5vw;
+        font-size: 25px;
     
     }
     .first-area .banner-text {
         display: block;
         position: absolute;
         margin-left: 10vw;
-        margin-top: 31vw;
-    
+        margin-top: 67vw;
+        font-size: 15px;
     }
     .first-area .getstarted {
         position: absolute;
