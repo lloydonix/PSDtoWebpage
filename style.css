@@ -760,69 +760,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media screen and (max-width: 850px) { /*The following CSS runs only for displays with a width (in pixels) of less than 850px*/
-
-    body{
-        font-family: 'Mulish', sans-serif;
-        color: #333;
-        font-size: 12px;
-        margin: 0;
-        padding: 0;
-        overflow: auto;
-        
-    }
-    /* width */
-    ::-webkit-scrollbar {
-        width: 10px;
-      }
-      
-      /* Track */
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1; 
-      }
-       
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: #888; 
-      }
-      
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: #555; 
-      }
-    
-    p{
-        font-weight: 400;
-    }
-    
-    h1, h2, h3, h4, h5, h6{
-        font-weight: 700;
-        line-height: 1.5em;
-    }
-    .content
-        {
-            margin: 0 auto;
-    
-    }
-    
-    /*Reusable Headers*/
-    
-    .bold-body-white-text{
-        font-family: 'Mulish', sans-serif;
-        color: #fff;
-        font-size: 2.2vw;
-    }
-    
-    .small-body-white-text {
-        font-family: 'Mulish', sans-serif;
-        color: #fff;
-        font-size: 1.5vw;
-    }
-    
-    .bold-body-green-text {
-        color: #4490a2;
-        font-family: 'Mulish', sans-serif;
-        font-size: 2.2vw;
-    }
     
     /*Header Area*/
     
@@ -1521,6 +1458,69 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media screen and (max-width: 450px) { /*The following CSS runs only for displays with a width (in pixels) of less than 450px*/
+    
+    /*Dropdown Menu Area*/
+    
+    .navbar {
+    overflow: hidden;
+    background-color: RGBA(255,255,255,0.65);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #266280;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #266280;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
     /*Header Area*/
     
     .resize{
