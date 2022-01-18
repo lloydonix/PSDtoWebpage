@@ -200,14 +200,14 @@ h1, h2, h3, h4, h5, h6{
     .first-area .getstarted {
         position: absolute;
         margin-left: 10vw;
-        margin-top: 45vw;
+        margin-top: 97vw;
         font-family: 'Mulish', sans-serif;
         background: #6c6c6c;
         color: aliceblue;
         padding:  10px;
         border: 0;
         border-radius: 10px;
-        width: 15vw;
+        width: 30vw;
         height: 47px;
         font-size: 110%;
     }
@@ -215,11 +215,13 @@ h1, h2, h3, h4, h5, h6{
         background: #3d3d3d;
         color: aliceblue;
     }
-    
+
+
+    /*
     .first-area .playbutton {
         position: absolute;
-        margin-top: 11vw;
-        margin-left: 65vw;
+        margin-top: 120vw;
+        margin-left: 0vw;
         box-shadow: 0px 4px 40px 30px rgba(0, 0, 0, 0.555), 0 6px 20px 0 rgba(0, 0, 0, 0.555);
         -moz-box-shadow: 0px 4px 40px 30px rgba(0, 0, 0, 0.555), 0 6px 20px 0 rgba(0, 0, 0, 0.555);
         -webkit-box-shadow: 0px 4px 40px 30px rgba(0, 0, 0, 0.555), 0 6px 20px 0 rgba(0, 0, 0, 0.555);
@@ -234,9 +236,28 @@ h1, h2, h3, h4, h5, h6{
         -o-box-shadow: 0px 4px 40px 30px rgba(125, 226, 204, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.555);
         border-radius:300px;
     }
-    
+    */
+
+
+
     /*Second Area*/
+
+
     
+.second-area .second-header{
+    font-size: 25px;
+    padding-left: 30px;
+}
+.second-area .second-header h1 {
+    
+    
+    margin-bottom: 10010px;
+}
+.second-area .bgimage2 {
+    margin-top: 20vw;
+}
+
+
     .second-area .button1 {
         position: absolute;
         margin-left: 16vw;
