@@ -248,13 +248,9 @@ h1, h2, h3, h4, h5, h6{
     font-size: 25px;
     padding-left: 30px;
 }
-.second-area .second-header h1 {
-    
-    
-    margin-bottom: 10010px;
-}
+
 .second-area .bgimage2 {
-    margin-top: 20vw;
+    margin-top: 10vw;
 }
 
 
@@ -279,7 +275,7 @@ h1, h2, h3, h4, h5, h6{
     .second-area .button2 {
         position: absolute;
         margin-left: 79vw;
-        margin-top: 74vw;
+        margin-top: vw;
         font-family: 'Mulish', sans-serif;
         background: #6c6c6c;
         color: aliceblue;
