@@ -1,7 +1,9 @@
 window.onresize = function(event) {
     document.location.reload(true);
   }
-  
+
+  window.onresize = function(){ location.reload(); }
+
   var href = window.location.href.split("/")
   var html_location = href[href.length-1]
   
@@ -9,7 +11,7 @@ window.onresize = function(event) {
       window.location = "index.html";
   }
   
-  if (window.innerWidth < 960 && html_location !== "index2.html") {
+  if (window.innerWidth < 500 && html_location !== "index2.html") {
       window.location = "index2.html";
   }
 
