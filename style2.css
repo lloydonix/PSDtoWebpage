@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6{
         display: block;
         position: absolute;
         margin-left: 12vw;
-        margin-top: 36vw;
+        margin-top: 80vw;
         font-size: 2.2vw;
     }
     
@@ -323,19 +323,21 @@ h1, h2, h3, h4, h5, h6{
     }
     
     .second-area .second-text .h4-text-name {    
-        margin-top: -8vw;
-        margin-left: 67vw;
-        font-size: 1.8vw;
+        margin-top: 140vw;
+        margin-left: 50vw;
+        font-size: 200%;
     }
     
     .second-area .second-text .p-text-name {    
-        margin-top: -2.5vw;
-        margin-left: 69vw;
-        font-size: 1.2vw;
+        margin-top: -5vw;
+        margin-left: 53vw;
+        font-size: 130%;
     }
     
     /*discover*/
     
+
+        /*
     .second-area .discover ul{
         text-align: left;
         margin: 0;
@@ -343,7 +345,7 @@ h1, h2, h3, h4, h5, h6{
         list-style: none;
         position: absolute;
         font-size: 1vw;
-        margin-top: 1.3em;
+        margin-top: 10em;
         color: white;
     }
     .second-area .discover ul h1{
@@ -354,6 +356,8 @@ h1, h2, h3, h4, h5, h6{
         margin-top: -1vw;
         width: 95%;
     }
+
+
     div.discover1 {
         margin-top: 4vw;
         margin-left: 60vw;
@@ -398,6 +402,9 @@ h1, h2, h3, h4, h5, h6{
         box-shadow: 0 4px 8px 0 rgba(0, 141, 151, 0.856), 0 6px 20px 0 rgba(0, 141, 151, 0.856);
     
     }
+
+    */
+
     /*Third Area*/
     
     .third-area .third-header {
